@@ -1,0 +1,151 @@
+trainging stage [0/100 1600] Train Loss: 0.0360746905207634
+trainging stage [0/100 3200] Train Loss: 0.02210826799273491
+trainging stage [0/100 4800] Train Loss: 0.02149645984172821
+trainging stage [0/100 6400] Train Loss: 0.013307160697877407
+Traceback (most recent call last):
+  File "/home/majunnan/machi/algoritm/hqs_red copy 44/train.py", line 115, in <module>
+    
+  File "/home/majunnan/anaconda3/lib/python3.9/site-packages/torch/tensor.py", line 221, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "/home/majunnan/anaconda3/lib/python3.9/site-packages/torch/autograd/__init__.py", line 130, in backward
+    Variable._execution_engine.run_backward(
+KeyboardInterrupt
+trainging stage [0/100 1600] Train Loss: 0.046985916793346405
+trainging stage [0/100 3200] Train Loss: 0.017160547897219658
+trainging stage [0/100 4800] Train Loss: 0.018561165779829025
+trainging stage [0/100 6400] Train Loss: 0.014061312191188335
+trainging stage [0/100 8000] Train Loss: 0.009961851872503757
+trainging stage [0/100 9600] Train Loss: 0.011128137819468975
+trainging stage [0/100 11200] Train Loss: 0.009350372478365898
+trainging stage [0/100 12800] Train Loss: 0.012423653155565262
+trainging stage [0/100 14400] Train Loss: 0.010072114877402782
+trainging stage [0/100 16000] Train Loss: 0.009051973931491375
+trainging stage [0/100 17600] Train Loss: 0.01052775140851736
+trainging stage [0/100 19200] Train Loss: 0.008699726313352585
+trainging stage [0/100 20800] Train Loss: 0.006156438495963812
+trainging stage [0/100 22400] Train Loss: 0.00977271143347025
+trainging stage [0/100 24000] Train Loss: 0.008844895288348198
+trainging stage [0/100 25600] Train Loss: 0.007575160823762417
+trainging stage [0/100 27200] Train Loss: 0.00949777476489544
+trainging stage [0/100 28800] Train Loss: 0.007663529831916094
+trainging stage [0/100 30400] Train Loss: 0.006713673938065767
+trainging stage [0/100 32000] Train Loss: 0.00665208138525486
+trainging stage [0/100 33600] Train Loss: 0.007430559489876032
+trainging stage [0/100 35200] Train Loss: 0.008057128638029099
+trainging stage [0/100 36800] Train Loss: 0.0071438271552324295
+trainging stage [0/100 38400] Train Loss: 0.0075702485628426075
+trainging stage [0/100 40000] Train Loss: 0.0073970467783510685
+trainging stage [0/100 41600] Train Loss: 0.004939342383295298
+trainging stage [0/100 43200] Train Loss: 0.007371718529611826
+trainging stage [0/100 44800] Train Loss: 0.007938364520668983
+trainging stage [0/100 46400] Train Loss: 0.0074452850967645645
+trainging stage [0/100 48000] Train Loss: 0.008163322694599628
+trainging stage [0/100 49600] Train Loss: 0.006021494045853615
+trainging stage [0/100 51200] Train Loss: 0.0073675247840583324
+trainging stage [0/100 52800] Train Loss: 0.007927251048386097
+trainging stage [0/100 54400] Train Loss: 0.006838170811533928
+trainging stage [0/100 56000] Train Loss: 0.0056024277582764626
+trainging stage [0/100 57600] Train Loss: 0.006167565938085318
+trainging stage [0/100 59200] Train Loss: 0.008525780402123928
+trainging stage [0/100 60800] Train Loss: 0.006403567269444466
+trainging stage [0/100 62400] Train Loss: 0.007562875747680664
+trainging stage [0/100 64000] Train Loss: 0.007565444801002741
+trainging stage [0/100 65600] Train Loss: 0.005698439199477434
+trainging stage [0/100 67200] Train Loss: 0.007502802647650242
+trainging stage [0/100 68800] Train Loss: 0.006584026385098696
+trainging stage [0/100 70400] Train Loss: 0.007405857089906931
+trainging stage [0/100 72000] Train Loss: 0.006659963168203831
+trainging stage [0/100 73600] Train Loss: 0.007511758245527744
+trainging stage [0/100 75200] Train Loss: 0.005166888236999512
+trainging stage [0/100 76800] Train Loss: 0.0069371419958770275
+trainging stage [0/100 78400] Train Loss: 0.007133953273296356
+trainging stage [0/100 80000] Train Loss: 0.0057737622410058975
+trainging stage [0/100 81600] Train Loss: 0.0071691954508423805
+trainging stage [0/100 83200] Train Loss: 0.004745038691908121
+trainging stage [0/100 84800] Train Loss: 0.0046621100045740604
+trainging stage [0/100 86400] Train Loss: 0.006674529984593391
+trainging stage [0/100 88000] Train Loss: 0.006326812319457531
+trainging stage [0/100 89600] Train Loss: 0.004583403933793306
+Traceback (most recent call last):
+  File "/home/majunnan/machi/algoritm/hqs_red copy 44/train.py", line 144, in <module>
+    img = img.view(1, 1, hei + hei_pad, wid + wid_pad)
+NameError: name 'hei_pad' is not defined
+trainging stage [0/100 1600] Train Loss: 0.0411599762737751
+trainging stage [0/100 3200] Train Loss: 0.020666325464844704
+trainging stage [0/100 4800] Train Loss: 0.016353366896510124
+trainging stage [0/100 6400] Train Loss: 0.016565535217523575
+trainging stage [0/100 8000] Train Loss: 0.013825790956616402
+trainging stage [0/100 9600] Train Loss: 0.01243783999234438
+trainging stage [0/100 11200] Train Loss: 0.010379140265285969
+trainging stage [0/100 12800] Train Loss: 0.013109182938933372
+trainging stage [0/100 14400] Train Loss: 0.012080734595656395
+trainging stage [0/100 16000] Train Loss: 0.009107302874326706
+trainging stage [0/100 17600] Train Loss: 0.008231166750192642
+trainging stage [0/100 19200] Train Loss: 0.009181356988847256
+trainging stage [0/100 20800] Train Loss: 0.008822276256978512
+trainging stage [0/100 22400] Train Loss: 0.008321248926222324
+trainging stage [0/100 24000] Train Loss: 0.008457164280116558
+trainging stage [0/100 25600] Train Loss: 0.007076202426105738
+trainging stage [0/100 27200] Train Loss: 0.0070896330289542675
+trainging stage [0/100 28800] Train Loss: 0.008993380703032017
+trainging stage [0/100 30400] Train Loss: 0.007237778976559639
+trainging stage [0/100 32000] Train Loss: 0.006693317089229822
+trainging stage [0/100 33600] Train Loss: 0.00956404022872448
+trainging stage [0/100 35200] Train Loss: 0.007211450021713972
+trainging stage [0/100 36800] Train Loss: 0.00916501134634018
+trainging stage [0/100 38400] Train Loss: 0.008151826448738575
+trainging stage [0/100 40000] Train Loss: 0.0065018292516469955
+trainging stage [0/100 41600] Train Loss: 0.006343458313494921
+trainging stage [0/100 43200] Train Loss: 0.007758325897157192
+trainging stage [0/100 44800] Train Loss: 0.006345656700432301
+trainging stage [0/100 46400] Train Loss: 0.0065434337593615055
+trainging stage [0/100 48000] Train Loss: 0.007858188822865486
+trainging stage [0/100 49600] Train Loss: 0.008190881460905075
+trainging stage [0/100 51200] Train Loss: 0.00717734731733799
+trainging stage [0/100 52800] Train Loss: 0.007351582404226065
+trainging stage [0/100 54400] Train Loss: 0.007745203096419573
+trainging stage [0/100 56000] Train Loss: 0.006391128059476614
+trainging stage [0/100 57600] Train Loss: 0.006844154559075832
+trainging stage [0/100 59200] Train Loss: 0.006492081563919783
+trainging stage [0/100 60800] Train Loss: 0.007914137095212936
+trainging stage [0/100 62400] Train Loss: 0.008467425592243671
+trainging stage [0/100 64000] Train Loss: 0.0055518606677651405
+trainging stage [0/100 65600] Train Loss: 0.008360967971384525
+trainging stage [0/100 67200] Train Loss: 0.006700410507619381
+trainging stage [0/100 68800] Train Loss: 0.008294112049043179
+trainging stage [0/100 70400] Train Loss: 0.0071472302079200745
+trainging stage [0/100 72000] Train Loss: 0.005234006326645613
+trainging stage [0/100 73600] Train Loss: 0.006141568534076214
+trainging stage [0/100 75200] Train Loss: 0.005541604477912188
+trainging stage [0/100 76800] Train Loss: 0.005858074873685837
+trainging stage [0/100 78400] Train Loss: 0.00542687252163887
+trainging stage [0/100 80000] Train Loss: 0.006899599451571703
+trainging stage [0/100 81600] Train Loss: 0.007762263063341379
+trainging stage [0/100 83200] Train Loss: 0.006912709213793278
+trainging stage [0/100 84800] Train Loss: 0.0065801432356238365
+trainging stage [0/100 86400] Train Loss: 0.006115331780165434
+trainging stage [0/100 88000] Train Loss: 0.007831517606973648
+trainging stage [0/100 89600] Train Loss: 0.005592446308583021
+Traceback (most recent call last):
+  File "/home/majunnan/machi/algoritm/hqs_red copy 44/train.py", line 153, in <module>
+    reconstruction = image_depadding(reconstruction, hei, wid)
+  File "/home/majunnan/machi/algoritm/hqs_red copy 44/train.py", line 30, in image_depadding
+    img = img[:, :, :hei_ori, :wid_ori]
+IndexError: too many indices for array: array is 2-dimensional, but 4 were indexed
+1.7.1
+Traceback (most recent call last):
+  File "/home/majunnan/machi/algoritms/hqs_red copy 44 nonlocal/test2.py", line 93, in <module>
+    predictions = model(img,)
+  File "/home/majunnan/anaconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/majunnan/machi/algoritms/hqs_red copy 44 nonlocal/network/network.py", line 79, in forward
+  File "/home/majunnan/anaconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/majunnan/machi/algoritms/hqs_red copy 44 nonlocal/network/network.py", line 120, in forward
+  File "/home/majunnan/anaconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/majunnan/machi/algoritms/hqs_red copy 44 nonlocal/network/network.py", line 138, in forward
+  File "/home/majunnan/anaconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/majunnan/machi/algoritms/hqs_red copy 44 nonlocal/network/network.py", line 310, in forward
+RuntimeError: CUDA out of memory. Tried to allocate 6.75 GiB (GPU 0; 15.90 GiB total capacity; 9.85 GiB already allocated; 3.39 GiB free; 11.69 GiB reserved in total by PyTorch)
