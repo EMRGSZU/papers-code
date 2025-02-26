@@ -1,0 +1,6 @@
+function [b,a]=GH_FES...
+    (M,N,patterns,targets,fstar,sigma)
+    
+[b(:,:), a(:,:)]=...
+    GH_bisec(M,N,patterns,targets,fstar,sigma);
+end
