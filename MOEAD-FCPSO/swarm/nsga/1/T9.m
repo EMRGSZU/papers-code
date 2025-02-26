@@ -1,0 +1,13 @@
+warning off
+%load('Lung_Cancer.mat')
+%load('Brain_Tumor1.mat')
+%load('Leukemia1.mat') 
+%load('Prostate_Tumor.mat') 
+load('data/9_Tumors.mat')
+%load('Brain_Tumor2.mat')
+%load('Brain_Tumor1.mat')
+%load('DLBCL.mat') 
+%load('Leukemia2.mat')
+%load('SRBCT.mat')
+%load('11_Tumors.mat')
+begin(data)
